@@ -45,8 +45,11 @@ For now, there are two default installations:   **Note either option will take s
 * Option 2: `improvements.sh` - Use this if you aren't going to use a carto, or don't have your carto yet.
 
     To run, use the terminal command `sh /mnt/UDISK/root/k2-improvements/improvements.sh`
+  
+* Option 2: `basic_improvements.sh` - Use this if you aren't going to use all features, it installs better-init, overrides and updates moonraker & fluidd.
 
-They both install the same set of features (those that I use).  The only difference is whether or not the cartographer bits are installed. If you start with `improvements.sh` and later get a carto, you can then run `improvements.sh carto=TRUE` and it will install all of the necessary carto items appropriately.
+    To run, use the terminal command `sh /mnt/UDISK/root/k2-improvements/improvements.sh`
+They install the same set of features (those that I use).  The only difference is whether or not the cartographer bits are installed. If you start with `improvements.sh` and later get a carto, you can then run `improvements.sh carto=TRUE` and it will install all of the necessary carto items appropriately.
 
 You are still welcome to hand pick which features you want to install.
 
