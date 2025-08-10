@@ -9,7 +9,7 @@ sh ./entware/install.sh
 
 mkdir -p /mnt/UDISK/root
 cd /mnt/UDISK/root
-/opt/bin/git clone https://github.com/xray/k2-improvements.git
+/opt/bin/git clone https://github.com/reply-nick/k2-improvements.git
 
 cd $CURDIR
 # Run install script from better-root
