@@ -4,11 +4,6 @@ set -xe
 
 SCRIPT_DIR=$(readlink -f $(dirname ${0}))
 
-INSTALL_CARTO=false
-if [ "$1" = "carto=TRUE" ]; then
-    INSTALL_CARTO=true
-fi
-
 install_feature() {
     FEATURE=${1}
     if [ ! -f /tmp/${FEATURE} ]; then
