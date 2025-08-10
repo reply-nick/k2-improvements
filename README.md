@@ -19,7 +19,7 @@ echo "all" | /usr/bin/nc -U /var/run/wipe.sock
 ```
 
 1. Enable root access on the K2 Plus by going to Settings, General tab and root on the physical screen. Take note of the password.
-1. Download the latest bootstrap release from [https://github.com/xray/k2-improvements/releases](https://github.com/xray/k2-improvements/releases) and extract the folder.
+1. Download the latest bootstrap release from [https://github.com/reply-nick/k2-improvements/releases](https://github.com/reply-nick/k2-improvements/releases) and extract the folder.
 1. To install the bootstrap, connect to your K2 Plus's Fluid interface via browser **http://PrinterIP:4408**
 1. Unzip the downloaded bootstrap folder and upload the extracted bootstrap folder by going to Configuration **{...}**, **+**, **Upload Folder**, and selecting the extracted bootstrap folder.
     ![image](https://github.com/user-attachments/assets/3d242efc-4cf8-412d-b4b0-59507720f5ad)
@@ -36,11 +36,11 @@ The unified installer will understand inter option dependencies and ensure they 
 
 For now, there are two default installations:   **Note either option will take some time and seem to hang at times. Be patient as it is moving lots of files and creating venvs for klipper and moonraker full installs
 
-* Option 1: `improvements.sh carto=TRUE` - Used to install carto **NOTE MUST HAVE CARTO FLASHED AND PLUGGED IN AND READY TO GO** by following instructions [here](https://github.com/xray/k2-improvements/blob/main/features/cartographer/firmware/README.md) first.
+* Option 1: `improvements.sh carto=TRUE` - Used to install carto **NOTE MUST HAVE CARTO FLASHED AND PLUGGED IN AND READY TO GO** by following instructions [here](https://github.com/reply-nick/k2-improvements/blob/main/features/cartographer/firmware/README.md) first.
 
     To run, use the terminal command `sh /mnt/UDISK/root/k2-improvements/improvements.sh carto=TRUE`
 
-    After install you will need to calibrate the carto by following instructions [here](https://github.com/xray/k2-improvements/blob/main/features/cartographer/SETUP.md)
+    After install you will need to calibrate the carto by following instructions [here](https://github.com/reply-nick/k2-improvements/blob/main/features/cartographer/SETUP.md)
 
 * Option 2: `improvements.sh` - Use this if you aren't going to use a carto, or don't have your carto yet.
 
